@@ -18,7 +18,6 @@
 - [SiteSucker](https://ricks-apps.com/osx/sitesucker/index.html) - 强大的网页抓取与保存工具
 - [MacDroid](https://www.macdroid.app/) - Mac和安卓文件传输工具
 - [PasteNow](https://pastenow.app/) - 剪贴板管理工具
-- 
 
 ## 💻 开发工具
 - [VS Code](https://code.visualstudio.com/) - 代码编辑器
