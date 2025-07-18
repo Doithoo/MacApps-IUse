@@ -1,23 +1,42 @@
-name: Update Last Updated Date
+name: Update Last Modified Date
+
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 00:00 运行
+    paths:
+      - '**.md'
+      
+      # 添加你项目中主要的源代码文件扩展名
+      # 这样只有当代码变更时才更新日期
+
 jobs:
-  update:
+  update-date:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # 授予写入权限
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 关键：显式传递 token
-      - name: Update Date
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        
+      - name: Update last modified date in README
         run: |
-          sed -i "s|updated-.*-brightgreen|updated-$(date +%Y-%m-%d)-brightgreen|g" README.md
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          # 获取当前日期（格式：YYYY-MM-DD）
+          CURRENT_DATE=$(date +'%Y-%m-%d')
+          
+          # 替换 README 中的日期徽章
+          sed -i "s/![Last Updated](https:\/\/img\.shields\.io\/badge\/last%20updated-.*)/![Last Updated](https:\/\/img.shields.io\/badge\/last%20updated-$CURRENT_DATE-blue)/g" README.md
+          
+          # 配置 Git
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+          # 提交变更
           git add README.md
-          git commit -m "Auto: Update last modified date"
+          git diff --quiet && git diff --staged --quiet || git commit -m "📅 Auto-update last modified date to $CURRENT_DATE"
+          
+          # 推送变更
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用你的Token
+      
+      
