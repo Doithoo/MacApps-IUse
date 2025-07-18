@@ -23,6 +23,7 @@
 ## 💻 开发工具
 - [VS Code](https://code.visualstudio.com/) - 代码编辑器
 - [cursor](https://www.cursor.com/) - AI 代码编辑器
+- [claude-code](https://www.anthropic.com/claude-code) - AI 编程工具
 - [PyCharm](https://www.jetbrains.com/zh-cn/pycharm) - python开发工具
 - [Navicat Premium](https://apps.apple.com/cn/app/navicat-premium-17/id1594061654?l=zh-Hans-CN&mt=12) - 数据库管理工具
 - [TablePlus](https://tableplus.com/) - 数据库管理工具（免费基础版）
