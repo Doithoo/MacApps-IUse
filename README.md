@@ -33,7 +33,7 @@
 - [Dash](https://kapeli.com/dash) - 强大的 API 文档浏览器和代码片段管理器，支持超过 200 种文档集
 
 ## 🎨 办公创作
-- [office 365](https://www.microsoft.com/zh-cn/microsoft-365/get-office-and-microsoft-365-oem-download-page)
+- [office 365](https://www.microsoft.com/zh-cn/microsoft-365/get-office-and-microsoft-365-oem-download-page) - office 365套件
 - [Typora](https://typora.io/) - 简洁 markdown 编辑器
 - [Zotera](https://www.zotero.org/download/) - 文献管理
 - [Texifier](https://www.texpad.com/mac) - 专业LaTeX编辑器软件
