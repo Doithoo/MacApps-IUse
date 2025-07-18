@@ -12,6 +12,9 @@ on:
 jobs:
   update-date:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 明确授予写入权限
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,6 +29,10 @@ jobs:
           
           # 替换 README 中的日期徽章
           sed -i "s/![Last Updated](https:\/\/img\.shields\.io\/badge\/last%20updated-[^)]*)/![Last Updated](https:\/\/img.shields.io\/badge\/last%20updated-$CURRENT_DATE-blue)/g" README.md
+          
+          # 调试：显示替换后内容
+          echo "=== 替换后内容 ==="
+          grep "Last Updated" README.md
           
           # 配置 Git
           git config --global user.name 'GitHub Actions'
