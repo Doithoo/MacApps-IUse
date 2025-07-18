@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - '**.md'
+      - 'README.md'
       
       # 添加你项目中主要的源代码文件扩展名
       # 这样只有当代码变更时才更新日期
@@ -16,6 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         
       - name: Update last modified date in README
@@ -24,18 +25,21 @@ jobs:
           CURRENT_DATE=$(date +'%Y-%m-%d')
           
           # 替换 README 中的日期徽章
-          sed -i "s/![Last Updated](https:\/\/img\.shields\.io\/badge\/last%20updated-.*)/![Last Updated](https:\/\/img.shields.io\/badge\/last%20updated-$CURRENT_DATE-blue)/g" README.md
+          sed -i "s/![Last Updated](https:\/\/img\.shields\.io\/badge\/last%20updated-[^)]*)/![Last Updated](https:\/\/img.shields.io\/badge\/last%20updated-$CURRENT_DATE-blue)/g" README.md
           
           # 配置 Git
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           
-          # 提交变更
+          # 检查是否有变更需要提交
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "📅 Auto-update last modified date to $CURRENT_DATE"
-          
-          # 推送变更
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "📅 Auto-update last modified date to $CURRENT_DATE"
+            git pull --ff-only origin $(git rev-parse --abbrev-ref HEAD)
+            git push origin $(git rev-parse --abbrev-ref HEAD)
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # 使用你的Token
       
