@@ -1,6 +1,6 @@
 # 🖥️ 我的Mac软件清单
 
-[![Last Updated](https://img.shields.io/badge/updated-DATE_PLACEHOLDER-brightgreen)](https://github.com/Doithoo/MacApps-IUse)
+![Last Updated](https://img.shields.io/badge/last%20updated-2025--07--17-blue)
 
 这是我日常使用的Mac软件集合，保持更新。
 
