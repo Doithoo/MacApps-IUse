@@ -1,6 +1,6 @@
 # 🖥️ 我的Mac软件清单
 
-![Last Updated](https://img.shields.io/badge/last%20updated-2025--07--15-blue)
+![Last Updated](https://img.shields.io/badge/last%20updated-2025--07--20-blue)
 
 这是我日常使用的Mac软件集合，保持更新。
 
@@ -23,6 +23,7 @@
 - [VS Code](https://code.visualstudio.com/) - 代码编辑器
 - [cursor](https://www.cursor.com/) - AI 代码编辑器
 - [claude-code](https://www.anthropic.com/claude-code) - AI 编程工具
+- [Docker](https://www.docker.com/products/docker-desktop/) - Docker 容器，方便项目部署
 - [PyCharm](https://www.jetbrains.com/zh-cn/pycharm) - python开发工具
 - [Navicat Premium](https://apps.apple.com/cn/app/navicat-premium-17/id1594061654?l=zh-Hans-CN&mt=12) - 数据库管理工具
 - [TablePlus](https://tableplus.com/) - 数据库管理工具（免费基础版）
@@ -62,6 +63,10 @@
 ## 🌏 科学上网
 - [Stash](https://stash.ws/) - Stash是一款功能全面的网络监控与管理工具，支持流量控制、请求修改、HTTPS解密和多协议代理，适用于苹果生态系统中的多平台设备。
 - [surge](https://nssurge.com/) - 稳定高性能代理工具
+
+## 🔗 参考资源
+- https://github.com/qianguyihao/Mac-list.git
+- https://macked.app/
 
 
 
