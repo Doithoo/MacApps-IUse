@@ -60,9 +60,10 @@
 - [KeyClu](https://github.com/Anze/KeyCluCask/) - 快捷键提示工具
 - [A Better Finder Rename 12](https://www.publicspace.net/ABetterFinderRename/index.html) - 批量文件重命名工具
 
-## 🌏 科学上网
+## 🌏 网络工具
 - [Stash](https://stash.ws/) - Stash是一款功能全面的网络监控与管理工具，支持流量控制、请求修改、HTTPS解密和多协议代理，适用于苹果生态系统中的多平台设备。
 - [surge](https://nssurge.com/) - 稳定高性能代理工具
+- [little snitch](https://www.obdev.at/products/littlesnitch/index.html) - 防火墙网络监控工具
 
 ## 🔗 参考资源
 - https://github.com/qianguyihao/Mac-list.git
