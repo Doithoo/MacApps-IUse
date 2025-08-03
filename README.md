@@ -22,6 +22,7 @@
 ## 💻 开发工具
 - [VS Code](https://code.visualstudio.com/) - 代码编辑器
 - [cursor](https://www.cursor.com/) - AI 代码编辑器
+- [warp](https://www.warp.dev/) - AI 终端工具
 - [claude-code](https://www.anthropic.com/claude-code) - AI 编程工具
 - [Docker](https://www.docker.com/products/docker-desktop/) - Docker 容器，方便项目部署
 - [PyCharm](https://www.jetbrains.com/zh-cn/pycharm) - python开发工具
