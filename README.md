@@ -40,6 +40,7 @@
 - [Texifier](https://www.texpad.com/mac) - 专业LaTeX编辑器软件
 - [Xmind](https://xmind.com/) - 思维导图工具
 - [Axure RP](https://www.axure.com/) - 专业原型设计工具
+- [Sketch](https://www.sketch.com/) - 矢量图工具
 - [Figma](https://www.figma.com/) - 界面设计
 - [feishu](https://www.feishu.cn/) 飞书
 - [腾讯会议](https://meeting.tencent.com/)
