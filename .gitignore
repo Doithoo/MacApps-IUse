@@ -8,3 +8,6 @@
 .idea/
 *.swp
 *.swo
+
+# 本地隔离工作区
+.worktrees/
