@@ -50,7 +50,6 @@
 - [Looq](https://looq.app/) - 快速搜索和定位桌面内容，减少在 Finder 里逐层翻找的时间。
 - [MacBooster 8](https://www.macbooster.net/) - 清理和维护 Mac，用来处理磁盘空间、缓存和基础健康检查。
 - [MacDroid](https://www.macdroid.app/) - 在 Mac 和 Android 设备之间传文件，适合偶尔需要跨生态同步素材。
-- [MacUpdater](https://www.corecode.io/macupdater/) - 检查第三方应用更新，补足 App Store 之外的软件维护。
 - [QSpace Pro](https://qspace.awehunt.com/) - 多面板文件管理器，适合高频文件搬运、对照和整理。
 - [Rapidmg](https://apps.apple.com/app/rapidmg/id1581451224) - 创建和管理 DMG 镜像，适合打包、归档或分发文件。
 - [Updatest](https://updatest.app/) - 聚合检查应用更新，帮助及时发现日常软件的新版本。
@@ -95,9 +94,6 @@
 
 ## 效率与文件
 
-- [aDrive](https://www.alipan.com/) - 阿里云盘客户端，用来同步和取回网盘里的资料。
-- [BaiduNetdisk](https://pan.baidu.com/download) - 百度网盘客户端，适合处理来自国内协作和分享链路的文件。
-- [Quark](https://pan.quark.cn/) - 夸克网盘客户端，用来管理另一套常见网盘资料。
 - [Keka](https://www.keka.io/) - 文件压缩与解压缩工具，界面轻量，格式支持稳定。
 - [Easydict](https://github.com/tisfeng/Easydict) - 开源划词、截图和输入翻译工具，适合多语言阅读与写作。
 - [Filo](https://apps.apple.com/app/filo/id6445936501) - 文件与资料整理工具，用来降低临时文件堆积带来的查找成本。
@@ -111,7 +107,6 @@
 
 - [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) - 代理客户端与规则管理工具，用来维护稳定的网络访问环境。
 - [Google Chrome](https://www.google.com/chrome/) - 跨平台浏览器，适合网页兼容性测试和多账号工作流。
-- [QQ](https://im.qq.com/macqq/) - 即时通信工具，用来覆盖仍依赖 QQ 的联系人和群组。
 - [Telegram](https://desktop.telegram.org/) - 即时通信工具，适合跨平台消息、频道和社群信息流。
 
 ## AI 工具
@@ -139,4 +134,3 @@
 ## 参考资源
 
 - [Mac-list](https://github.com/qianguyihao/Mac-list.git) - Mac 软件清单参考
-- [Macked](https://macked.app/) - Mac 软件发现与推荐
