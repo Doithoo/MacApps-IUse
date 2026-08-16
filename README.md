@@ -1,6 +1,6 @@
 # 我的 Mac 软件清单
 
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--08--16-1e6fff?style=flat-square&logo=clock&logoColor=white)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--08--17-1e6fff?style=flat-square&logo=clock&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square&logo=github&logoColor=white)
 
 本仓库收录我 Mac 上实际安装的第三方软件清单（已排除系统自带应用），按使用场景分类整理，链接均指向官方或可信来源。
