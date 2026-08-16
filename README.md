@@ -25,7 +25,7 @@
 - [Ice](https://github.com/jordanbaird/Ice) - 开源菜单栏图标管理工具，用来保持菜单栏清爽。
 - [KeyboardHolder](https://github.com/leaves615/KeyboardHolder) - 按应用自动切换输入法，适合中英文混合工作流。
 - [Logi Options+](https://www.logitech.com/software/logi-options-plus.html) - 配置罗技键鼠按键和手势，让常用操作贴合自己的桌面习惯。
-- [Looq](https://parcse.com/looq) - 快速搜索和定位桌面内容，减少在 Finder 里逐层翻找的时间。
+- [Looq](https://parcse.com/looq) - 文件预览增强工具，Quick Look 替代方案，支持 Markdown、代码、表格、压缩包和文件夹等类型的即时预览。
 - [MacBooster 8](https://www.macbooster.net/) - 清理和维护 Mac，用来处理磁盘空间、缓存和基础健康检查。
 - [MacDroid](https://www.macdroid.app/) - 在 Mac 和 Android 设备之间传文件（USB / Wi-Fi），适合跨生态同步素材。
 - [MacUpdater](https://www.corecode.io/macupdater/) - 检查并更新已安装的第三方应用，保持软件版本与安全补丁最新。
@@ -76,7 +76,7 @@
 
 - [Keka](https://www.keka.io/) - 文件压缩与解压缩工具，界面轻量，格式支持稳定。
 - [Easydict](https://github.com/tisfeng/Easydict) - 开源划词、截图和输入翻译工具，适合多语言阅读与写作。
-- [Mole](https://github.com/tw93/Mole) - 轻量级笔记和信息暂存工具，适合随手记下短内容。
+- [Mole](https://github.com/tw93/Mole) - 终端里的 Mac 清理、卸载、分析与监控工具，集成了磁盘清理、残留清除、磁盘占用分析和实时性能监控等功能。
 - [Pearcleaner](https://github.com/alienator88/Pearcleaner) - 开源应用卸载清理工具，用来彻底移除应用及其残留文件。
 - [File List Export](https://apps.apple.com/app/files-list-export/id852692251) - 一键导出文件夹内文件清单，适合整理归档和盘点素材。
 - [Markdown Preview](https://md-preview.app/) - 在 Finder 中直接预览 Markdown 文件，适合快速浏览和校对文档。
