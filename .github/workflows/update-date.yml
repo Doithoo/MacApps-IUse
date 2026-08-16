@@ -27,7 +27,30 @@ jobs:
         shell: bash
         run: |
           CURRENT_DATE=$(date +'%Y-%m-%d')
-          ./script/update-readme-date.sh "$CURRENT_DATE"
+          BADGE_DATE=${CURRENT_DATE//-/--}
+
+          python3 - "$BADGE_DATE" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          badge_date = sys.argv[1]
+          readme_path = Path("README.md")
+          content = readme_path.read_text(encoding="utf-8")
+          updated, replacements = re.subn(
+              r"!\[Last Updated\]\(https://img\.shields\.io/badge/last%20updated-[^)]*\)",
+              f"![Last Updated](https://img.shields.io/badge/last%20updated-{badge_date}-1e6fff?style=flat-square&logo=clock&logoColor=white)",
+              content,
+              count=1,
+          )
+
+          if replacements == 0:
+              raise SystemExit("Last Updated badge not found in README.md")
+
+          readme_path.write_text(updated, encoding="utf-8")
+          PY
+
+          grep "Last Updated" README.md
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
