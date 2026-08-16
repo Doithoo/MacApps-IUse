@@ -34,6 +34,7 @@
 - [效率与文件](#效率与文件)
 - [网络与通信](#网络与通信)
 - [AI 工具](#ai-工具)
+- [AI 终端编程工具](#ai-终端编程工具)
 - [维护与贡献](#维护与贡献)
 - [说明](#说明)
 
@@ -119,6 +120,12 @@
 - [CC Switch](https://github.com/farion1231/cc-switch) - AI 编程工具（Claude Code / Codex / Gemini 等）的 Provider 一键切换助手，用于管理不同 API 服务商。
 - [RewriteBar](https://rewritebar.com/) - 系统级 AI 写作与改写工具，适合在任意输入场景里润色和转换文本。
 - [Typeless](https://www.typeless.com/) - AI 听写与语音输入工具，用来把口述内容快速变成可编辑文本。
+
+## AI 终端编程工具
+
+- [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 的终端编码代理，能理解整个代码库，通过自然语言执行日常开发任务、解释复杂代码和处理 git 工作流。
+- [Codex CLI](https://github.com/openai/codex) - OpenAI 的轻量级终端编码代理，直接在命令行里理解代码库并执行编码任务。
+- [pi](https://github.com/earendil-works/pi) - AI 代理工具包：统一 LLM API、代理循环、TUI 与编码代理 CLI，也是本仓库所用的编码代理。
 
 ## 维护与贡献
 
