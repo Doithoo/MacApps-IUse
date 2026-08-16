@@ -5,6 +5,8 @@ on:
     branches: [ main ]
     paths:
       - 'README.md'
+  schedule:
+    - cron: '0 16 * * *'  # 每天 UTC 16:00 = 北京时间次日 00:00
   workflow_dispatch:
 
 jobs:
@@ -12,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      TZ: 'Asia/Shanghai'  # 使用本地日历日，避免 UTC 时区导致日期差一天
 
     steps:
       - name: Checkout repository
