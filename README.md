@@ -26,11 +26,11 @@
 - [KeyboardHolder](https://github.com/leaves615/KeyboardHolder) - 按应用自动切换输入法，适合中英文混合工作流。
 - [Logi Options+](https://www.logitech.com/software/logi-options-plus.html) - 配置罗技键鼠按键和手势，让常用操作贴合自己的桌面习惯。
 - [Looq](https://parcse.com/looq) - 文件预览增强工具，Quick Look 替代方案，支持 Markdown、代码、表格、压缩包和文件夹等类型的即时预览。
-- [MacBooster 8](https://www.macbooster.net/) - 清理和维护 Mac，用来处理磁盘空间、缓存和基础健康检查。
+- [MacBooster 8](https://www.macbooster.net/) - 图形界面的清理维护工具，用来处理磁盘空间、缓存和基础健康检查。
 - [MacDroid](https://www.macdroid.app/) - 在 Mac 和 Android 设备之间传文件（USB / Wi-Fi），适合跨生态同步素材。
-- [MacUpdater](https://www.corecode.io/macupdater/) - 检查并更新已安装的第三方应用，保持软件版本与安全补丁最新。
+- [MacUpdater](https://www.corecode.io/macupdater/) - 自动跟踪并一键更新已安装的第三方应用（CoreCode 出品），保持软件版本与安全补丁最新。
 - [QSpace Pro](https://qspace.awehunt.com/) - 多面板文件管理器，适合高频文件搬运、对照和整理。
-- [Updatest](https://updatest.app/) - 聚合检查应用更新，帮助及时发现日常软件的新版本。
+- [Updatest](https://updatest.app/) - 聚合检查应用更新，兼容 Homebrew、Mac App Store、Sparkle、Electron 和 GitHub Releases 等更新来源（与 MacUpdater 相比更侧重开源生态）。
 
 ## 开发工具
 
@@ -51,7 +51,7 @@
 - [OneNote](https://www.onenote.com/) - 跨平台笔记工具，适合随手记录和整理零散信息。
 - [LibreOffice](https://www.libreoffice.org/) - 免费开源办公套件，适合作为本地文档处理和格式转换的备用方案。
 - [Typora](https://typora.io/) - 简洁 Markdown 编辑器，适合专注写作和整理长文档。
-- [Obsidian](https://obsidian.md/) - 本地优先的知识库，用来沉淀长期笔记和资料。
+- [Obsidian](https://obsidian.md/) - 本地优先的双链笔记知识库，用来沉淀长期笔记和资料。
 - [Zotero](https://www.zotero.org/download/) - 文献管理工具，用来收集、标注和组织研究资料。
 - [Filo](https://www.filomail.com/) - AI 邮件客户端，支持多账号聚合，把收件箱和待办放在同一工作流里。
 
@@ -64,9 +64,9 @@
 
 ## 截图录屏与媒体
 
-- [CleanShot X](https://cleanshot.com/) - 截图、录屏与标注工具，是日常沟通和反馈里最常用的视觉记录工具。
-- [FocuSee](https://focusee.imobie.com/) - 自动聚焦效果录屏工具，适合快速制作更清晰的演示视频。
-- [SmoothCapture](https://www.smoothcapture.app/) - 屏幕录制与演示视频制作工具，用来输出更顺滑的操作记录。
+- [CleanShot X](https://cleanshot.com/) - 截图、录屏与标注一体的全能工具，是日常沟通和反馈里最常用的视觉记录工具。
+- [FocuSee](https://focusee.imobie.com/) - 自动聚焦/跟随鼠标的录屏工具，适合制作操作教程和演示视频。
+- [SmoothCapture](https://www.smoothcapture.app/) - 屏幕录制与演示视频制作工具，提供更精细的剪辑输出，适合产出高质量操作演示（与 CleanShot X 的日常录屏、FocuSee 的教程录屏互补）。
 - [ScreenBrush](https://apps.apple.com/app/screenbrush/id1233965871) - 屏幕画笔与演示标注工具，适合会议、讲解和远程协作。
 - [LosslessCut](https://github.com/mifi/lossless-cut) - 视频无损快速剪辑工具，适合在不重新编码的情况下裁剪、分段和提取片段。
 - [TranscribeX](https://apps.apple.com/app/transcribex/id6752823664) - 音频转写工具，用来把会议、访谈或语音素材变成文本。
@@ -76,13 +76,13 @@
 
 - [Keka](https://www.keka.io/) - 文件压缩与解压缩工具，界面轻量，格式支持稳定。
 - [Easydict](https://github.com/tisfeng/Easydict) - 开源划词、截图和输入翻译工具，适合多语言阅读与写作。
-- [Mole](https://github.com/tw93/Mole) - 终端里的 Mac 清理、卸载、分析与监控工具，集成了磁盘清理、残留清除、磁盘占用分析和实时性能监控等功能。
-- [Pearcleaner](https://github.com/alienator88/Pearcleaner) - 开源应用卸载清理工具，用来彻底移除应用及其残留文件。
+- [Mole](https://github.com/tw93/Mole) - 终端里的 Mac 清理、卸载、分析与监控一体工具（CLI），集成磁盘清理、残留清除、磁盘占用分析和实时性能监控等功能。
+- [Pearcleaner](https://github.com/alienator88/Pearcleaner) - 开源应用卸载清理工具，专注彻底移除应用及其残留文件（相比 Mole 更专精于卸载场景）。
 - [File List Export](https://apps.apple.com/app/files-list-export/id852692251) - 一键导出文件夹内文件清单，适合整理归档和盘点素材。
 - [Markdown Preview](https://md-preview.app/) - 在 Finder 中直接预览 Markdown 文件，适合快速浏览和校对文档。
 - [HarborDrop](https://vesslo.top/harbordrop) - 下载管理器，配合浏览器扩展接管下载、断点续传和跨窗口文件整理。
-- [myPDF](https://apps.apple.com/app/mypdf-scan-fill-sign-ocr/id6751173174) - PDF 扫描、编辑与管理工具，适合处理零散 PDF 和纸质资料数字化。
-- [Foxit PDF Reader](https://www.foxit.com/pdf-reader/) - PDF 阅读与批注工具，用来阅读长文档和做基础标注。
+- [myPDF](https://apps.apple.com/app/mypdf-scan-fill-sign-ocr/id6751173174) - PDF 扫描、编辑、签名与 OCR 工具，适合处理零散 PDF 和纸质资料数字化。
+- [Foxit PDF Reader](https://www.foxit.com/pdf-reader/) - PDF 阅读与批注工具，侧重阅读长文档和轻量标注（与 myPDF 的扫描编辑场景互补）。
 - [Rapidmg](https://apps.apple.com/app/rapidmg/id6451349778) - 创建和管理 DMG 镜像，适合打包、归档或分发文件。
 
 ## 网络与通信
@@ -103,6 +103,8 @@
 
 ## AI 终端编程工具
 
+以下均为终端编码代理（CLI），并行收录是因为各自厂商与特性不同：Claude Code（Anthropic）、Codex CLI（OpenAI）为官方工具；pi 为通用代理工具包（本仓库所用）；Prime Agent 主打长时自主任务。
+
 - [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 的终端编码代理，能理解整个代码库，通过自然语言执行日常开发任务、解释复杂代码和处理 git 工作流。
 - [Codex CLI](https://github.com/openai/codex) - OpenAI 的轻量级终端编码代理，直接在命令行里理解代码库并执行编码任务。
 - [pi](https://github.com/earendil-works/pi) - AI 代理工具包：统一 LLM API、代理循环、TUI 与编码代理 CLI，也是本仓库所用的编码代理。
@@ -111,5 +113,6 @@
 ## 说明
 
 - 清单由本机实际安装的第三方应用生成，已排除 macOS 自带软件（Safari、Pages、Keynote、Numbers、Xcode 等）。
+- 清单中部分工具功能相近（如多款应用更新检查、清理卸载、录屏、终端编码代理），并行收录是因为各自使用场景不同，具体差异见各条目描述。
 - 部分软件是付费或订阅制，请以官网信息为准。
 - 这份清单反映的是我的设备和工作流，不保证适合每个人。
