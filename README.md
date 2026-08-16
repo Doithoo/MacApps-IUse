@@ -126,6 +126,7 @@
 - [Claude Code](https://github.com/anthropics/claude-code) - Anthropic 的终端编码代理，能理解整个代码库，通过自然语言执行日常开发任务、解释复杂代码和处理 git 工作流。
 - [Codex CLI](https://github.com/openai/codex) - OpenAI 的轻量级终端编码代理，直接在命令行里理解代码库并执行编码任务。
 - [pi](https://github.com/earendil-works/pi) - AI 代理工具包：统一 LLM API、代理循环、TUI 与编码代理 CLI，也是本仓库所用的编码代理。
+- [Prime Agent](https://github.com/PrimeIntellect-ai/prime-agent) - 自我改进的 RLM 编码代理，面向编码工作流和长时自主任务，内置 IPython 工具与会话管理。
 
 ## 维护与贡献
 
