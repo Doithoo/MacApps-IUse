@@ -107,7 +107,6 @@
 ## 网络与通信
 
 - [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) - 开源代理客户端与规则管理工具，用来维护稳定的网络访问环境。
-- [VVCloud](https://x.com/vvcloud_oa) - 代理客户端（Clash 系），官方渠道见应用内引导或 X @vvcloud_oa。
 - [Google Chrome](https://www.google.com/chrome/) - 跨平台浏览器，适合网页兼容性测试和多账号工作流。
 - [Quark（夸克）](https://www.quark.cn/) - AI 旗舰应用与浏览器，整合搜索、网盘和智能工具。
 - [Telegram](https://desktop.telegram.org/) - 即时通信工具，适合跨平台消息、频道和社群信息流。
