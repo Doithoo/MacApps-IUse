@@ -1,11 +1,11 @@
 # 我的 Mac 软件清单
 
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--06--14-blue)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--08--16-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 这是我长期使用、筛选和保留下来的 Mac 软件清单。它不是全网大全，也不是客观排行榜，而是一份基于真实工作流、产品体验和个人品味的持续记录。
 
-我希望它对两类人都有用：普通 Mac 用户可以快速发现可靠工具，重度用户、开发者和创作者也能看到一套经过取舍的真实软件栈。
+这份清单直接同步自本机 `/Applications` 中实际安装的第三方软件（已排除 macOS 自带应用，如 Safari、Pages、Keynote、Numbers、Xcode 等），并按使用场景分类整理，每个条目都尽量指向官方或可信来源。
 
 ## 如何理解这份清单
 
@@ -35,85 +35,92 @@
 - [网络与通信](#网络与通信)
 - [AI 工具](#ai-工具)
 - [维护与贡献](#维护与贡献)
-- [参考资源](#参考资源)
+- [说明](#说明)
 
 ## 系统增强
 
-- [AppPorts](https://appports.net/) - 查看和管理本机端口占用，排查开发服务冲突时很直接。
-- [BetterAudio](https://betteraudio.app/) - 管理音频设备、音量和输入输出，适合频繁切换耳机、麦克风和外放的桌面工作流。
-- [CC Switch](https://ccswitch.app/) - 控制 Adobe Creative Cloud 组件启停，减少不需要的后台占用。
+- [BetterAudio](https://betteraudio.pro/) - 音频设备管理工具，快速切换耳机、音箱、麦克风及输入输出音量，适合频繁切换音频设备的桌面工作流。
 - [Folder Preview Pro](https://anybox.ltd/folder-preview) - 增强 Finder 文件夹预览，让浏览项目和素材目录更快。
-- [HarborDrop](https://apps.apple.com/app/harbordrop/id6740887679) - 菜单栏文件暂存区，适合跨窗口拖放和临时收集文件。
 - [Ice](https://github.com/jordanbaird/Ice) - 开源菜单栏图标管理工具，用来保持菜单栏清爽。
 - [KeyboardHolder](https://github.com/leaves615/KeyboardHolder) - 按应用自动切换输入法，适合中英文混合工作流。
 - [Logi Options+](https://www.logitech.com/software/logi-options-plus.html) - 配置罗技键鼠按键和手势，让常用操作贴合自己的桌面习惯。
-- [Looq](https://looq.app/) - 快速搜索和定位桌面内容，减少在 Finder 里逐层翻找的时间。
+- [Looq](https://parcse.com/looq) - 快速搜索和定位桌面内容，减少在 Finder 里逐层翻找的时间。
 - [MacBooster 8](https://www.macbooster.net/) - 清理和维护 Mac，用来处理磁盘空间、缓存和基础健康检查。
-- [MacDroid](https://www.macdroid.app/) - 在 Mac 和 Android 设备之间传文件，适合偶尔需要跨生态同步素材。
+- [MacDroid](https://www.macdroid.app/) - 在 Mac 和 Android 设备之间传文件（USB / Wi-Fi），适合跨生态同步素材。
+- [MacUpdater](https://www.corecode.io/macupdater/) - 检查并更新已安装的第三方应用，保持软件版本与安全补丁最新。
 - [QSpace Pro](https://qspace.awehunt.com/) - 多面板文件管理器，适合高频文件搬运、对照和整理。
-- [Rapidmg](https://apps.apple.com/app/rapidmg/id1581451224) - 创建和管理 DMG 镜像，适合打包、归档或分发文件。
 - [Updatest](https://updatest.app/) - 聚合检查应用更新，帮助及时发现日常软件的新版本。
 
 ## 开发工具
 
-- [Warp](https://www.warp.dev/) - 带 AI 能力的终端，用来加速命令行检索、执行和排错。
+- [Warp](https://www.warp.dev/) - 带 AI 能力的现代化终端，用来加速命令行检索、执行和排错。
 - [CotEditor](https://coteditor.com/) - 原生、轻量的文本编辑器，适合快速查看和修改纯文本。
-- [DetailsPro](https://detailspro.app/) - SwiftUI 设计和原型工具，适合快速验证界面结构与组件想法。
-- [Open Design](https://opendesign.dev/) - 本地设计稿查看与协作工具，用来查看设计文件和交付细节。
+- [Gitfox](https://www.gitfox.app/) - 原生 Mac Git 客户端，界面现代，适合日常版本管理与协作。
+- [draw.io](https://www.drawio.com/) - 免费开源图表工具，用来画流程图、架构图和说明图。
+- [Texpile](https://texpile.com/) - 本地、离线的 LaTeX / Typst 编辑器，适合需要稳定编译和预览的论文或技术文档。
+- [BibDesk](https://bibdesk.sourceforge.io/) - BibTeX 参考文献管理工具，用来维护引用库和条目信息。
+- [LaTeXiT](https://www.chachatelier.fr/latexit/) - LaTeX 公式排版与导出工具，适合把公式放进文档、幻灯片或图稿。
+- [TeX Live Utility](https://github.com/amaxwell/tlutility) - TeX Live 包管理工具，用来更新和维护本地 TeX 环境。
 
 ## 办公与知识管理
 
-- [Microsoft 365](https://www.microsoft.com/microsoft-365) - 处理需要兼容 Office 格式的文档、表格、演示和笔记。
+- [Microsoft Word](https://www.microsoft.com/microsoft-365/word) - 处理需要兼容 Word 格式的文档。
+- [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel) - 处理需要兼容 Excel 格式的表格与数据。
+- [Microsoft PowerPoint](https://www.microsoft.com/microsoft-365/powerpoint) - 处理需要兼容 PowerPoint 格式的演示文稿。
+- [OneNote](https://www.onenote.com/) - 跨平台笔记工具，适合随手记录和整理零散信息。
 - [LibreOffice](https://www.libreoffice.org/) - 免费开源办公套件，适合作为本地文档处理和格式转换的备用方案。
 - [Typora](https://typora.io/) - 简洁 Markdown 编辑器，适合专注写作和整理长文档。
 - [Obsidian](https://obsidian.md/) - 本地优先的知识库，用来沉淀长期笔记和资料。
 - [Zotero](https://www.zotero.org/download/) - 文献管理工具，用来收集、标注和组织研究资料。
-- [Texifier](https://www.texifier.com/mac) - LaTeX 编辑器，适合需要稳定编译和预览的论文或技术文档。
-- [BibDesk](https://bibdesk.sourceforge.io/) - BibTeX 参考文献管理工具，用来维护引用库和条目信息。
-- [LaTeXiT](https://www.chachatelier.fr/latexit/) - LaTeX 公式排版与导出工具，适合把公式放进文档、幻灯片或图稿。
-- [TeX Live Utility](https://amaxwell.github.io/tlutility/) - TeX Live 包管理工具，用来更新和维护本地 TeX 环境。
+- [Filo](https://www.filomail.com/) - AI 邮件客户端，支持多账号聚合，把收件箱和待办放在同一工作流里。
 
 ## 设计与创作
 
 - [Figma](https://www.figma.com/downloads/) - 界面设计与协作工具，用来处理产品设计、原型和交付。
 - [Eagle](https://eagle.cool/) - 设计素材和图片资产管理工具，适合长期收集灵感、截图和参考图。
-- [Posterino](https://www.zykloid.com/posterino/) - 海报、拼贴和照片墙制作工具，适合快速输出照片排版。
-- [draw.io](https://www.drawio.com/) - 免费开源图表工具，用来画流程图、架构图和说明图。
-- [OpenPencil](https://github.com/danmercer/openpencil) - Apple Pencil 与草图工作流辅助工具，适合把手绘想法带进桌面流程。
+- [OpenPencil](https://github.com/open-pencil/open-pencil) - 开源 AI 原生设计编辑器，用来查看和编辑 Pencil / Figma 设计文件。
+- [Open Design](https://opendesign.dev/) - 本地设计稿查看与协作工具，用来查看设计文件和交付细节（注：开发商 Ceros 已宣布停运，迁移中请留意）。
 
 ## 截图录屏与媒体
 
 - [CleanShot X](https://cleanshot.com/) - 截图、录屏与标注工具，是日常沟通和反馈里最常用的视觉记录工具。
-- [FocuSee](https://gemoo.com/focusee/) - 自动聚焦效果录屏工具，适合快速制作更清晰的演示视频。
-- [SmoothCapture](https://smoothcapture.com/) - 屏幕录制与演示视频制作工具，用来输出更顺滑的操作记录。
+- [FocuSee](https://focusee.imobie.com/) - 自动聚焦效果录屏工具，适合快速制作更清晰的演示视频。
+- [SmoothCapture](https://www.smoothcapture.app/) - 屏幕录制与演示视频制作工具，用来输出更顺滑的操作记录。
 - [ScreenBrush](https://apps.apple.com/app/screenbrush/id1233965871) - 屏幕画笔与演示标注工具，适合会议、讲解和远程协作。
-- [ScreenSage Pro](https://apps.apple.com/app/screensage-pro/id6504160654) - 屏幕录制与教程视频制作工具，用来沉淀操作流程和教学内容。
-- [AUDIOEDIT](https://apps.apple.com/app/audioedit/id1481217779) - 音频剪辑与处理工具，适合快速修剪、合并和处理录音。
-- [TranscribeX](https://apps.apple.com/app/transcribex/id6445988381) - 音频转写工具，用来把会议、访谈或语音素材变成文本。
+- [LosslessCut](https://github.com/mifi/lossless-cut) - 视频无损快速剪辑工具，适合在不重新编码的情况下裁剪、分段和提取片段。
+- [TranscribeX](https://apps.apple.com/app/transcribex/id6752823664) - 音频转写工具，用来把会议、访谈或语音素材变成文本。
 - [Infuse](https://firecore.com/infuse) - 本地和流媒体视频播放器，适合管理和播放个人媒体库。
 
 ## 效率与文件
 
 - [Keka](https://www.keka.io/) - 文件压缩与解压缩工具，界面轻量，格式支持稳定。
 - [Easydict](https://github.com/tisfeng/Easydict) - 开源划词、截图和输入翻译工具，适合多语言阅读与写作。
-- [Filo](https://apps.apple.com/app/filo/id6445936501) - 文件与资料整理工具，用来降低临时文件堆积带来的查找成本。
-- [Chronoid](https://apps.apple.com/app/chronoid/id6464474834) - 时间追踪与计时工具，适合观察任务节奏和工作投入。
-- [Maestri](https://www.getmaestri.com/) - 菜单栏快速控制与自动化工具，用来把常用动作放到更近的位置。
 - [Mole](https://github.com/tw93/Mole) - 轻量级笔记和信息暂存工具，适合随手记下短内容。
-- [myPDF](https://apps.apple.com/app/mypdf/id6738751545) - PDF 扫描、编辑与管理工具，适合处理零散 PDF 和纸质资料数字化。
+- [Pearcleaner](https://github.com/alienator88/Pearcleaner) - 开源应用卸载清理工具，用来彻底移除应用及其残留文件。
+- [File List Export](https://apps.apple.com/app/files-list-export/id852692251) - 一键导出文件夹内文件清单，适合整理归档和盘点素材。
+- [Markdown Preview](https://md-preview.app/) - 在 Finder 中直接预览 Markdown 文件，适合快速浏览和校对文档。
+- [HarborDrop](https://vesslo.top/harbordrop) - 下载管理器，配合浏览器扩展接管下载、断点续传和跨窗口文件整理。
+- [myPDF](https://apps.apple.com/app/mypdf-scan-fill-sign-ocr/id6751173174) - PDF 扫描、编辑与管理工具，适合处理零散 PDF 和纸质资料数字化。
 - [Foxit PDF Reader](https://www.foxit.com/pdf-reader/) - PDF 阅读与批注工具，用来阅读长文档和做基础标注。
+- [Rapidmg](https://apps.apple.com/app/rapidmg/id6451349778) - 创建和管理 DMG 镜像，适合打包、归档或分发文件。
 
 ## 网络与通信
 
-- [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) - 代理客户端与规则管理工具，用来维护稳定的网络访问环境。
+- [Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) - 开源代理客户端与规则管理工具，用来维护稳定的网络访问环境。
+- [VVCloud](https://x.com/vvcloud_oa) - 代理客户端（Clash 系），官方渠道见应用内引导或 X @vvcloud_oa。
 - [Google Chrome](https://www.google.com/chrome/) - 跨平台浏览器，适合网页兼容性测试和多账号工作流。
+- [Quark（夸克）](https://www.quark.cn/) - AI 旗舰应用与浏览器，整合搜索、网盘和智能工具。
 - [Telegram](https://desktop.telegram.org/) - 即时通信工具，适合跨平台消息、频道和社群信息流。
+- [aDrive（阿里云盘）](https://www.alipan.com/) - 阿里云盘客户端，用来同步和分享大文件。
+- [BaiduNetdisk（百度网盘）](https://pan.baidu.com/download) - 百度网盘客户端，用来存取云端文件和协作分享。
 
 ## AI 工具
 
-- [ChatGPT Atlas](https://chatgpt.com/atlas) - ChatGPT 浏览器，用来把网页阅读、检索和 AI 辅助放在同一工作流里。
+- [ChatGPT](https://chatgpt.com/download) - OpenAI 官方桌面客户端，把对话、检索和 AI 辅助放在同一工作流里。
+- [Agency Agents](https://agencyagents.app/) - AI 智能体本地安装器，用来管理和运行各种 AI Agent。
+- [CC Switch](https://github.com/farion1231/cc-switch) - AI 编程工具（Claude Code / Codex / Gemini 等）的 Provider 一键切换助手，用于管理不同 API 服务商。
 - [RewriteBar](https://rewritebar.com/) - 系统级 AI 写作与改写工具，适合在任意输入场景里润色和转换文本。
-- [Typeless](https://typeless.com/) - AI 听写与语音输入工具，用来把口述内容快速变成可编辑文本。
+- [Typeless](https://www.typeless.com/) - AI 听写与语音输入工具，用来把口述内容快速变成可编辑文本。
 
 ## 维护与贡献
 
@@ -127,10 +134,7 @@
 
 ## 说明
 
+- 本清单由本机实际安装的第三方应用生成，生成时已排除 macOS 自带软件（Safari、Pages、Keynote、Numbers、Xcode 等）。
 - 部分软件是付费或订阅制，请以官网信息为准。
 - 我尽量链接到官方或可信来源，但下载和购买前仍建议自行确认。
 - 这份清单反映的是我的设备和工作流，不保证适合每个人。
-
-## 参考资源
-
-- [Mac-list](https://github.com/qianguyihao/Mac-list.git) - Mac 软件清单参考
