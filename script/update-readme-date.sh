@@ -21,7 +21,7 @@ badge_date = sys.argv[2]
 content = readme_path.read_text(encoding="utf-8")
 updated, replacements = re.subn(
     r"!\[Last Updated\]\(https://img\.shields\.io/badge/last%20updated-[^)]*\)",
-    f"![Last Updated](https://img.shields.io/badge/last%20updated-{badge_date}-blue)",
+    f"![Last Updated](https://img.shields.io/badge/last%20updated-{badge_date}-1e6fff?style=flat-square&logo=clock&logoColor=white)",
     content,
     count=1,
 )
