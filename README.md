@@ -3,7 +3,7 @@
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--08--16-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-这是我长期使用、筛选并保留下来的 Mac 软件清单。它直接同步自本机实际安装的第三方软件（已排除 macOS 自带应用），按使用场景分类整理，每个条目都尽量指向官方或可信来源。
+本仓库收录我 Mac 上实际安装的第三方软件清单（已排除系统自带应用），按使用场景分类整理，链接均指向官方或可信来源。
 
 ## 目录
 
