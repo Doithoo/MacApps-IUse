@@ -112,7 +112,6 @@
 - [Quark（夸克）](https://www.quark.cn/) - AI 旗舰应用与浏览器，整合搜索、网盘和智能工具。
 - [Telegram](https://desktop.telegram.org/) - 即时通信工具，适合跨平台消息、频道和社群信息流。
 - [aDrive（阿里云盘）](https://www.alipan.com/) - 阿里云盘客户端，用来同步和分享大文件。
-- [BaiduNetdisk（百度网盘）](https://pan.baidu.com/download) - 百度网盘客户端，用来存取云端文件和协作分享。
 
 ## AI 工具
 
